@@ -15,21 +15,21 @@ const ThreeScene: React.FC = () => {
             mountRef.current.appendChild(renderer.domElement);
         }
 
-        // Add a cube
-        const geometry = new THREE.BoxGeometry();
-        const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-        const cube = new THREE.Mesh(geometry, material);
-        scene.add(cube);
+//         // Add a cube
+//         const geometry = new THREE.BoxGeometry();
+//         const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+//         const cube = new THREE.Mesh(geometry, material);
+//         scene.add(cube);
 
-        camera.position.z = 5;
+//         camera.position.z = 5;
 
-        const animate = function () {
-            requestAnimationFrame(animate);
-            cube.rotation.x += 0.01;
-            cube.rotation.y += 0.01;
-            renderer.render(scene, camera);
-        };
-        animate();
+//         const animate = function () {
+//             requestAnimationFrame(animate);
+//             cube.rotation.x += 0.01;
+//             cube.rotation.y += 0.01;
+//             renderer.render(scene, camera);
+//         };
+//         animate();
 
         return () => {
             if (mountRef.current) {
@@ -42,3 +42,19 @@ const ThreeScene: React.FC = () => {
 };
 
 export default ThreeScene;
+// Particle Example
+const particleCount = 1000;
+const particlesGeometry = new THREE.BufferGeometry();
+const positions = new Float32Array(particleCount * 3);
+
+for (let i = 0; i < particleCount; i++) {
+  positions[i * 3] = (Math.random() - 0.5) * 10; // X position
+  positions[i * 3 + 1] = (Math.random() - 0.5) * 10; // Y position
+  positions[i * 3 + 2] = (Math.random() - 0.5) * 10; // Z position
+}
+
+particlesGeometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+const particlesMaterial = new THREE.PointsMaterial({ color: 0x888888, size: 0.05 });
+const particles = new THREE.Points(particlesGeometry, particlesMaterial);
+
+scene.add(particles);
