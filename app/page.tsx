@@ -2,8 +2,7 @@
 import ThreeScene from './components/ThreeScene';
 import { Header } from './components/Header';
 import {Homepage} from './components/Homepage';
-// import Link from "next/link";
-
+import Projects from './Projects/page';
 
 
 export default function Home() {
@@ -13,6 +12,7 @@ export default function Home() {
       <Header style={{ position: 'relative', zIndex: 1, backgroundColor: 'rgba(255, 255, 255, 0.8)' }} />
     
       <Homepage/>
+    
     </div>
   );
 }

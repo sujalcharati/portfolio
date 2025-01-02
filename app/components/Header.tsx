@@ -11,10 +11,10 @@ export const Header: React.FC<HeaderProps> = ({ style }) => {
         <div className="text-white" style={style}>
             <nav>
             <ul className="flex items-center justify-center list-none p-0" style={{ backgroundColor: 'black', fontSize: '18px' }}>
-            <li className="mr-5"><Link href="/home">Home</Link></li>
-            <li className="mr-5"><Link href="/projects">Projects</Link></li>
-            <li className="mr-5"><Link href="/resume">Resume</Link></li>
-            <li><Link href="#contact">Contact</Link></li>
+            <li className="mr-5"><Link href="/Home">Home</Link></li>
+            <li className="mr-5"><Link href="/Projects">Projects</Link></li>
+            <li className="mr-5"><Link href="/Resume">Resume</Link></li>
+            <li><Link href="/Contact">Contact</Link></li>
             </ul>
             </nav>
         </div>
