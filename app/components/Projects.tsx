@@ -5,17 +5,6 @@ export const Projects: React.FC = () => {
 
 
   return (
-    // <div className='bg-black text-white min-h-screen p-6'>
-    //   <div className='flex justify-center items-center min-h-20'>
-    //     <div className='w-full max-w-4xl'>
-    //       <h3 className='text-4xl'>Projects 🚀</h3>
-    //       <div className='mt-8'>
-    //         <h4 className='text-2xl'>Paint 🎨</h4>
-    //         <p className='text-lg'>A simple paint application built using HTML5 Canvas and JavaScript.</p>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
 
         <div className=" bg-black text-white min-h-screen p-6">
           <h2 className="flex justify-center items-center min-h-20">
