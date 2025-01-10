@@ -13,14 +13,14 @@ export const Projects: React.FC = () => {
           </h2>
           <div className="border border-gray-700 rounded-lg p-4">
             <a
-              href="#"
+              href=" https://sujalcharati.github.io/Paint/"
               className="text-blue-400 text-lg font-semibold flex items-center space-x-2 mb-2"
             >
            
               <span> 🎨Paint</span>
             </a>
             <p className="text-gray-300 text-sm mb-4">
-            A simple paint application built using HTML5 Canvas and JavaScript.
+            A simple paint web application built using HTML5 Canvas and JavaScript.
             </p>
             <div className="flex flex-wrap gap-2">
               <span className="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">
