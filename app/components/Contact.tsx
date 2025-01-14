@@ -9,16 +9,16 @@ export const Contact: React.FC = () => {
         <h3 className="text-4xl">Contact 🚀</h3>
       </div>
       <div className="flex items-center mt-6 space-x-4">
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/sujalcharati" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github text-3xl"></i>
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/sujal-charati-2468931ba/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin text-3xl"></i>
         </a>
-        <a href="mailto:your.email@example.com">
+        <a href="">
           <i className="fas fa-envelope text-3xl"></i>
         </a>
-        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/suj25887" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-twitter text-3xl"></i>
         </a>
       </div>
