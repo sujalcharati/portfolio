@@ -14,7 +14,6 @@ export const Header: React.FC<HeaderProps> = ({ style }) => {
             <li className="mr-5"><Link href="/Home">Home</Link></li>
             <li className="mr-5"><Link href="/Projects">Projects</Link></li>
             <li className="mr-5"><Link href="/Resume">Resume</Link></li>
-            <li><Link href="/Contact">Contact</Link></li>
             </ul>
             </nav>
         </div>

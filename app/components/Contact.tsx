@@ -22,6 +22,7 @@ export const Contact: React.FC = () => {
           <i className="fab fa-twitter text-3xl"></i>
         </a>
       </div>
+      
     </div>
   );
 };
