@@ -1,17 +1,20 @@
 "use client"
 import React from 'react'
+import { ThreeDCardDemo } from './ThreeDCardDemo';
 
 export const Projects: React.FC = () => {
 
 
   return (
-
+    <div>
         <div className=" bg-black text-white min-h-screen p-6">
           <h2 className="flex justify-center items-center min-h-20">
             <span className='text-4xl' >Projects 🚀</span>
             
           </h2>
-          <div className="border border-gray-700 rounded-lg p-4">
+          <ThreeDCardDemo/>
+
+          {/* <div className="border border-gray-700 rounded-lg p-4">
             <a
               href=" https://sujalcharati.github.io/Paint/"
               className="text-blue-400 text-lg font-semibold flex items-center space-x-2 mb-2"
@@ -31,12 +34,14 @@ export const Projects: React.FC = () => {
               </span>
               <span className="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">
                 JavaScript
-              </span>
+              </span> */}
              
+            {/* </div>
+          </div>
+        </div> */}
             </div>
           </div>
-        </div>
-      );
+        );
     };
     
     export default Projects;
