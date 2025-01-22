@@ -23,7 +23,7 @@ export function ThreeDCardDemo() {
  A simple paint web application built using HTML5 Canvas and JavaScript.        </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            src=""
+            src="/paint.png"
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

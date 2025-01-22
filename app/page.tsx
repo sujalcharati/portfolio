@@ -3,6 +3,8 @@ import ThreeScene from './components/ThreeScene';
 import { Header } from './components/Header';
 import {Homepage} from './components/Homepage';
 import Projects from './Projects/page';
+import { FloatingDockDemo } from "./components/FloatingDockDemo";
+
 
 
 export default function Home() {
@@ -12,7 +14,8 @@ export default function Home() {
       <Header style={{ position: 'relative', zIndex: 1, backgroundColor: 'rgba(255, 255, 255, 0.8)' }} />
     
       <Homepage/>
-     
+      <FloatingDockDemo/>
+
     </div>
   );
 }
