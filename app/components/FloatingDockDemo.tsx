@@ -9,7 +9,6 @@ import {
   IconTerminal2,
   IconBrandLinkedin,
 } from "@tabler/icons-react";
-import Image from "next/image";
 
 export function FloatingDockDemo() {
   const links = [

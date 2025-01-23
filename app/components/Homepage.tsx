@@ -1,7 +1,4 @@
 import React from "react";
-import ThreeScene from "./ThreeScene";
-import Link from "next/link";
-import { FloatingDockDemo } from "../components/FloatingDockDemo";
 
 export const Homepage =()=>{
     return (

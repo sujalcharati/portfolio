@@ -2,7 +2,6 @@
 import ThreeScene from './components/ThreeScene';
 import { Header } from './components/Header';
 import {Homepage} from './components/Homepage';
-import Projects from './Projects/page';
 import { FloatingDockDemo } from "./components/FloatingDockDemo";
 
 
