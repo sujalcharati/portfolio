@@ -13,9 +13,7 @@ export const Projects: React.FC = () => {
             
           </h2>
           <ThreeDCardDemo/>
-
-     
-            </div>
+           </div>
           </div>
         );
     };
