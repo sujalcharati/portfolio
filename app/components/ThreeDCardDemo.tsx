@@ -4,7 +4,6 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import Link from "next/link";
-import { title } from "process";
 
 
 interface ProjectCardInterface {
@@ -79,7 +78,7 @@ export function ThreeDCardDemo() {
       <ProjectCard 
       title="💼 Walleto" 
       description="A simple wallet application for managing your finances." 
-      paintImg="/wallet.png" 
+      paintImg="/walleto.png" 
       projectUrl="https://sujalcharati.github/" 
       />
     </div>
