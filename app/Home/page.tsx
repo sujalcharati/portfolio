@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { FloatingDockDemo } from "../components/FloatingDockDemo";
+// import { FloatingDockDemo } from "../components/FloatingDockDemo";
 import { Header } from "../components/Header"
 // import {  Homepage  } from "../components/Homepage"
 import ThreeScene from "../components/ThreeScene"
@@ -12,7 +12,7 @@ export default function Home(){
         <Header style={{ position: 'relative', zIndex: 1, backgroundColor: 'rgba(255, 255, 255, 0.8)' }} />
     </div>
     {/* <Homepage /> */}
-   <FloatingDockDemo/>
+   {/* <FloatingDockDemo/> */}
 </div>
     );
 
