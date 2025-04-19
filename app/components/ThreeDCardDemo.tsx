@@ -68,7 +68,7 @@ export const ProjectCard: React.FC<ProjectCardInterface> = ({ title, description
 
 export function ThreeDCardDemo() {
   return(
-    <div className="flex flex-row justify-center items-center px-4 md:px-20 mx-4 pt-7 md:mx-28 my-8 space-x-16">
+    <div className="flex flex-col md:flex-row justify-center items-center px-4 md:px-20 mx-4 pt-7 md:mx-28 my-8 md:space-x-16 space-y-16 md:space-y-0">
       <ProjectCard  
       title="🎨 Paint"
       description="A simple paint web application built using HTML5 Canvas and JavaScript." 
