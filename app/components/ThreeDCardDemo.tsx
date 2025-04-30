@@ -10,13 +10,14 @@ interface ProjectCardInterface {
   title:string,
   description: string,
   paintImg:string,
-  projectUrl :string
+  projectUrl :string,
+  githubUrl:string
   
 }
 
 
 
-export const ProjectCard: React.FC<ProjectCardInterface> = ({ title, description, paintImg, projectUrl }) => {
+export const ProjectCard: React.FC<ProjectCardInterface> = ({ title, description, paintImg, projectUrl, githubUrl }) => {
   return (
     <CardContainer className="inter-var">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
@@ -51,13 +52,15 @@ export const ProjectCard: React.FC<ProjectCardInterface> = ({ title, description
           >
             Try now →
           </CardItem>
-          <CardItem
+            <CardItem
             translateZ={20}
-            as="button"
+            as={Link}
+            href={githubUrl}
+            target="_blank"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-          >
+            >
             Source
-          </CardItem>
+            </CardItem>
         </div>
       </CardBody>
     </CardContainer>
@@ -74,12 +77,15 @@ export function ThreeDCardDemo() {
       description="A simple paint web application built using HTML5 Canvas and JavaScript." 
       paintImg="/paint.png" 
       projectUrl="https://sujalcharati.github.io/Paint/" 
+      githubUrl="https://github.com/sujalcharati/paint"
+
       />
       <ProjectCard 
       title="💼 Walleto" 
       description="A simple wallet application for managing your finances." 
       paintImg="/walleto.png" 
-      projectUrl="https://sujalcharati.github/" 
+      projectUrl="https://walleto.vercel.app" 
+      githubUrl="https://github.com/sujalcharati/Walleto"
       />
     </div>
   )
