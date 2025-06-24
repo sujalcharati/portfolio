@@ -1,20 +1,25 @@
-import React from "react";
 import Link from "next/link";
 
-interface HeaderProps {
-
-    style?: React.CSSProperties;
-  
-  }
-export const Header: React.FC<HeaderProps> = ({ style }) => {
-    return ( 
-        <div className="text-white" style={style}>
-            <nav style={{ position: 'fixed', top: 0, width: '100%' }}>
-            <ul className="flex items-center justify-center list-none p-0" style={{ backgroundColor: 'black', fontSize: '18px' }}>
-            <li className="mr-5"><Link href="/Home">Home</Link></li>
-            
-            </ul>
-            </nav>
-        </div>
-    );
-};
+export default function Header() {
+  return (
+    <header className="flex justify-between items-center py-6 border-b border-gray-200">
+      <h1 className="text-2xl font-bold text-gray-800 tracking-wider">
+        SUJAL CHARATI
+      </h1>
+      <nav className="flex items-center space-x-8">
+        <Link href="/" className="text-gray-600 hover:text-gray-900 font-medium">
+          Home
+        </Link>
+        <Link href="#projects" className="text-gray-600 hover:text-gray-900 font-medium">
+          Projects
+        </Link>
+        <Link href="#blogs" className="text-gray-600 hover:text-gray-900 font-medium">
+          Blogs
+        </Link>
+        <Link href="#news" className="text-gray-600 hover:text-gray-900 font-medium">
+          News
+        </Link>
+      </nav>
+    </header>
+  );
+}
