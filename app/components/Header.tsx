@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center py-6 border-b border-gray-200">
+    <header className="flex justify-between items-center py-3 border-b border-gray-200 sticky top-0 bg-white">
       <h1 className="text-2xl font-bold text-gray-800 tracking-wider">
         SUJAL CHARATI
       </h1>

@@ -10,31 +10,31 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    logo: "/wildcard-logo.png", // placeholder
-    title: "Full-Stack Blockchain Engineer",
-    company: "Wildcard",
+    logo: "/iiitdmk.webp", // placeholder
+    title: "Research Intern",
+    company: "IIIT Kurnool",
     duration: "Current",
   },
   {
-    logo: "/swiftey-logo.png", // placeholder
+    logo: "/cod logo.png", // placeholder
     title: "Full-Stack Engineer",
-    company: "Swiftey AI",
-    duration: "Past",
+    company: "Coduter",
+    duration: "current",
   },
   {
-    logo: "/iitd-logo.png", // placeholder
+    logo: "/pmec logo.webp", // placeholder
     title: "Bachelor of Technology in Computer Science",
-    company: "IIT Delhi",
-    duration: "2019 - 2023",
+    company: "PMEC Berhampur",
+    duration: "2023-2027",
   },
 ]
 
 const ExperienceItem: React.FC<Experience> = ({ logo, title, company, duration }) => (
   <div className="flex items-center space-x-6 py-4">
-    <div className="w-20 h-20 flex-shrink-0 flex items-center justify-center">
+    <div className="w-20 h-20 flex-shrink-0 flex items-center justify-center border border-gray-200 rounded-md shadow-sm overflow-hidden">
       {/* Using a simple div as a placeholder for the logo */}
       <div className="w-16 h-16 bg-gray-200 rounded-md flex items-center justify-center">
-        <span className="text-xs text-gray-500">Logo</span>
+        <Image src={logo} alt={`${company} logo`} width={64} height={64} className="rounded-md" />
       </div>
     </div>
     <div className="flex-grow">
