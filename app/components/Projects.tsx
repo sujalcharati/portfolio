@@ -17,8 +17,8 @@ interface Project {
 
 const projects: Project[] = [
   {
-    image: "/streamvibe.png", // placeholder
-    title: "StreamVibe",
+    image: "/walleto.png", // placeholder
+    title: "Walleto",
     description: "A decentralized video streaming platform using WebRTC and Mediasoup. Built with WebRTC, Mediasoup, FFMPEG, Node.js, and React.",
     links: [
       { name: "Live Demo", href: "#" },
@@ -57,7 +57,14 @@ const ProjectItem: React.FC<Project> = ({ image, title, description, links }) =>
   <div className="flex flex-col md:flex-row items-start space-y-6 md:space-y-0 md:space-x-8 py-8">
     <div className="w-full md:w-1/3 flex-shrink-0">
       <div className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-        <span className="text-gray-500">Image</span>
+        {/* <span className="text-gray-500">Image</span> */}
+        <Image 
+          src={image} 
+          alt={title}
+          width={500}
+          height={300}
+          className="rounded-lg"
+        />
       </div>
     </div>
     <div className="flex-grow">
