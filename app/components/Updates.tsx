@@ -7,12 +7,12 @@ interface Update {
 
 const updates: Update[] = [
   {
-    date: "Apr 2024",
-    text: '“Reasoning with Latent Diffusion in Offline Reinforcement Learning” accepted to ICLR 2024.',
+    date: "June 2025",
+    text: ' Started as Research Intern at IIIT Kurnool in the field of Cryptography.',
   },
   {
-    date: "Sept 2023",
-    text: "Started as a Machine Learning Scientist at Tesla AI.",
+    date: "March 2025",
+    text: "Started as a Junior Frontend Engineer Intern at Coduter.",
   },
   {
     date: "Jul 2023",

@@ -21,49 +21,31 @@ const projects: Project[] = [
     title: "Walleto",
     description: "A decentralized video streaming platform using WebRTC and Mediasoup. Built with WebRTC, Mediasoup, FFMPEG, Node.js, and React.",
     links: [
-      { name: "Live Demo", href: "#" },
-      { name: "Source Code", href: "#" },
+      { name: "Live Demo", href: "https://walleto.vercel.app" },
+      { name: "Source Code", href: "https://github.com/sujalcharati/Walleto" },
     ],
   },
   {
-    image: "/shopsavvy.png", // placeholder
-    title: "ShopSavvy",
+    image: "/cipherpay.png", // placeholder
+    title: "CipherPay",
     description: "An e-commerce platform with a focus on personalized recommendations. Built with Next.js, TypeScript, Tailwind, Node.js, and MongoDB.",
     links: [
-        { name: "Live Demo", href: "#" },
-        { name: "Source Code", href: "#" },
+        { name: "Live Demo", href: "https://cipher-pay.vercel.app/" },
+        { name: "Source Code", href: "https://github.com/sujalcharati/cipherPay" },
     ],
   },
-  {
-    image: "/eth-vault.png", // placeholder
-    title: "Ethereum Vault",
-    description: "A secure smart contract for managing ERC-20 tokens and NFTs. Built with Hardhat, Solidity, Ethers.js, and React.",
-    links: [
-        { name: "Source Code", href: "#" },
-        { name: "Docs", href: "#" },
-    ],
-  },
-  {
-    image: "/did-solana.png", // placeholder
-    title: "Decentralized Identity on Solana",
-    description: "Implemented a self-sovereign identity solution on Solana using Anchor. Built with Solana, Anchor, Rust, and React Native.",
-    links: [
-        { name: "Source Code", href: "#" },
-    ],
-  }
 ];
 
 const ProjectItem: React.FC<Project> = ({ image, title, description, links }) => (
   <div className="flex flex-col md:flex-row items-start space-y-6 md:space-y-0 md:space-x-8 py-8">
     <div className="w-full md:w-1/3 flex-shrink-0">
-      <div className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-        {/* <span className="text-gray-500">Image</span> */}
+      <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
         <Image 
           src={image} 
           alt={title}
           width={500}
-          height={300}
-          className="rounded-lg"
+          height={280}
+          className="w-full h-full object-cover"
         />
       </div>
     </div>
@@ -89,7 +71,7 @@ const ProjectItem: React.FC<Project> = ({ image, title, description, links }) =>
 
 const Projects: React.FC = () => {
   return (
-    <section id="projects" className="py-16 border-b border-gray-200">
+    <section id="projects" className="py-20 border-b border-gray-200">
       <h2 className="text-3xl font-bold text-gray-800 mb-4">Projects</h2>
       <div>
         {projects.map((project, index) => (
