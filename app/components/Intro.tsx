@@ -25,10 +25,10 @@ export default function Intro() {
       <div className="max-w-2xl">
       <h3 className="text-5xl font-semibold text-blue-600 mb-5">About Me</h3>
       <p className="text-xl text-gray-700 leading-relaxed">
-        I'm a full-stack developer and open-source contributor exploring ai, currently working as a fullstack intern at a US-based startup. I specialize in building responsive web applications using the MERN stack, NextJs and real-time systems with WebSockets and WebRTC.
+        I&apos;m a full-stack developer and open-source contributor exploring ai, currently working as a fullstack intern at a US-based startup. I specialize in building responsive web applications using the MERN stack, NextJs and real-time systems with WebSockets and WebRTC.
       </p>
       <p className="text-xl text-gray-700 leading-relaxed mt-6">
-       I'm building a podcast generator Chrome extension powered by Gemini Nano, explored post-quantum cryptography through research prototypes. I'm actively involved in open-source programs like GSSoC,Hacktoberfest and Apertre 2.0 and I enjoy bridging theory with hands-on implementation.
+       I&apos;m building a podcast generator Chrome extension powered by Gemini Nano, explored post-quantum cryptography through research prototypes. I&apos;m actively involved in open-source programs like GSSoC,Hacktoberfest and Apertre 2.0 and I enjoy bridging theory with hands-on implementation.
       </p>
       </div>
     </section>
