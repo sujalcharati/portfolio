@@ -19,13 +19,13 @@ const experiences: Experience[] = [
     logo: "/cod logo.png",
     title: " Full-stack Engineer",
     company: "Coduter",
-    duration: "Current",
+    duration: "Feb-Current",
   },
   {
     logo: "/iiitdmk.webp",
     title: "Research Intern",
     company: "IIIT Kurnool",
-    duration: " Current",
+    duration: " June-July",
   }
 ]
 

@@ -4,7 +4,7 @@ import React from "react"
 import Header from "./components/Header"
 import Intro from "./components/Intro"
 import Projects from "./components/Projects"
-import Blogs from "./components/Blogs"
+// import Blogs from "./components/Blogs"
 import Experience from "./components/Experience"
 import Updates from "./components/Updates"
 
@@ -17,7 +17,7 @@ export default function PortfolioPage() {
           <Intro />
           <Experience />
           <Projects />
-          <Blogs />
+          {/* <Blogs /> */}
           <Updates />
         </div>
       </div>

@@ -13,9 +13,9 @@ export default function Header() {
         <Link href="#projects" className="text-gray-600 hover:text-gray-900 font-medium">
           Projects
         </Link>
-        <Link href="#blogs" className="text-gray-600 hover:text-gray-900 font-medium">
+        {/* <Link href="#blogs" className="text-gray-600 hover:text-gray-900 font-medium">
           Blogs
-        </Link>
+        </Link> */}
         <Link href="#news" className="text-gray-600 hover:text-gray-900 font-medium">
           News
         </Link>

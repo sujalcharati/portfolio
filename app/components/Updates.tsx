@@ -12,7 +12,7 @@ const updates: Update[] = [
   },
   {
     date: "March 2025",
-    text: "Started as a Junior Frontend Engineer Intern at Coduter.",
+    text: "Onboarded as a Junior Frontend Engineer Intern at Coduter.",
   },
   {
     date: "Jul 2023",
