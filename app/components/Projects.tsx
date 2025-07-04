@@ -18,7 +18,7 @@ const projects: Project[] = [
   {
     image: "/walleto.png", // placeholder
     title: "Walleto",
-    description: "A decentralized video streaming platform using WebRTC and Mediasoup. Built with WebRTC, Mediasoup, FFMPEG, Node.js, and React.",
+    description: "An expense tracker application for managing personal finances and budgeting. Built with React, Node.js, MongoDB, and features real-time expense tracking and analytics.",
     links: [
       { name: "Live Demo", href: "https://walleto.vercel.app" },
       { name: "Source Code", href: "https://github.com/sujalcharati/Walleto" },
@@ -27,7 +27,7 @@ const projects: Project[] = [
   {
     image: "/cipherpay.png", // placeholder
     title: "CipherPay",
-    description: "An e-commerce platform with a focus on personalized recommendations. Built with Next.js, TypeScript, Tailwind, Node.js, and MongoDB.",
+    description: "A web-based cryptocurrency wallet for managing digital assets and blockchain transactions. Built with Next.js, TypeScript, Tailwind, Node.js, and Web3 integration.",
     links: [
         { name: "Live Demo", href: "https://cipher-pay.vercel.app/" },
         { name: "Source Code", href: "https://github.com/sujalcharati/cipherPay" },
