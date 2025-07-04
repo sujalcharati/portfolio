@@ -25,11 +25,10 @@ export default function Intro() {
       <div className="max-w-2xl">
       <h3 className="text-5xl font-semibold text-blue-600 mb-5">About Me</h3>
       <p className="text-xl text-gray-700 leading-relaxed">
-        I am a full-stack developer based in Odisha, India. 
-        I specialize in building exceptional digital experiences and crafting innovative web solutions that combine functionality with stunning design.
+        I'm a full-stack developer and open-source contributor exploring ai, currently working as a fullstack intern at a US-based startup. I specialize in building responsive web applications using the MERN stack, NextJs and real-time systems with WebSockets and WebRTC.
       </p>
       <p className="text-xl text-gray-700 leading-relaxed mt-6">
-        Broadly speaking, I am excited about building generally intelligent agents that make our lives easier.
+       I'm building a podcast generator Chrome extension powered by Gemini Nano, explored post-quantum cryptography through research prototypes. I'm actively involved in open-source programs like GSSoC,Hacktoberfest and Apertre 2.0 and I enjoy bridging theory with hands-on implementation.
       </p>
       </div>
     </section>

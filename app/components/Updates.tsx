@@ -12,11 +12,11 @@ const updates: Update[] = [
   },
   {
     date: "March 2025",
-    text: "Onboarded as a Junior Frontend Engineer Intern at Coduter.",
+    text: "Contributed to Apertre 2.0 open source program projects.",
   },
   {
-    date: "Jul 2023",
-    text: '“Distributional Distance Classifiers for Goal-Conditioned Reinforcement Learning” accepted to the New Frontiers in Learning, Control, and Dynamical Systems Workshop, ICML 2023.',
+    date: "Feb 2025",
+    text: 'Started as a Junior Frontend Engineer Intern at Coduter.',
   },
 ];
 

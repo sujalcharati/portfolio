@@ -52,7 +52,7 @@ const Experience: React.FC = () => {
   return (
     <section id="experience" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">Experience</h2>
+        {/* <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">Experience</h2> */}
         <div className="flex flex-wrap justify-center items-start gap-8 md:gap-12">
           {experiences.map((exp, index) => (
             <ExperienceItem key={index} {...exp} />
