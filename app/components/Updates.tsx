@@ -16,7 +16,15 @@ const updates: Update[] = [
   },
   {
     date: "Feb 2025",
+    text: 'First runners up at HACK FOR TOMMOROW 2K25 at VSSUT,Burla .',
+  },
+  {
+    date: "Feb 2025",
     text: 'Started as a Junior Frontend Engineer Intern at Coduter.',
+  },
+   {
+    date: "June 2024",
+    text: 'workshop at IIT Kharagpur for Algorithm to Text Analytics.',
   },
 ];
 
