@@ -25,6 +25,15 @@ const projects: Project[] = [
     ],
   },
   {
+    image: "/attendease.png", // placeholder
+    title: "Attedease", 
+    description: "A web application for managing event attendance and ticketing. Built with Next.js, TypeScript, Tailwind CSS, and Node.js(still development).",
+    links: [
+      { name: "Live Demo", href: "https://attendease-sigma.vercel.app/" },
+      { name: "Source Code", href: "https://github.com/sujalcharati/attedease" },
+    ],
+  },
+  {
     image: "/cipherpay.png", // placeholder
     title: "CipherPay",
     description: "A web-based cryptocurrency wallet for managing digital assets and blockchain transactions. Built with Next.js, TypeScript, Tailwind, Node.js, and Web3 integration.",

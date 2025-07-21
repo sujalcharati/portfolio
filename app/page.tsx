@@ -7,6 +7,7 @@ import Projects from "./components/Projects"
 // import Blogs from "./components/Blogs"
 import Experience from "./components/Experience"
 import Updates from "./components/Updates"
+import GitHubStats from "./components/GitHubStats"
 
 export default function PortfolioPage() {
   return (
@@ -16,6 +17,7 @@ export default function PortfolioPage() {
         <div className="mt-8">
           <Intro />
           <Experience />
+          <GitHubStats />
           <Projects />
           {/* <Blogs /> */}
           <Updates />
