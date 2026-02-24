@@ -16,7 +16,7 @@ const experiences: Experience[] = [
     duration: " 2023 - 2027",
   },
   {
-    logo: "/cod logo.png",
+    logo: "/logo.svg",
     title: " Full-stack Engineer",
     company: "Coduter",
     duration: "Feb-Current",
