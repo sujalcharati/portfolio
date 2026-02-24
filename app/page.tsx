@@ -21,6 +21,9 @@ export default function PortfolioPage() {
           <Updates />
         </div>
       </div>
+      <footer className="border-t border-gray-200 py-8 text-center text-gray-500 text-sm">
+        <p>&copy; {new Date().getFullYear()} Sujal Charati. Built with Next.js</p>
+      </footer>
     </main>
   )
 }
