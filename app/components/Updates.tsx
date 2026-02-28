@@ -31,14 +31,14 @@ const updates: Update[] = [
 const Updates: React.FC = () => {
   return (
     <section id="news" className="py-16">
-      <h2 className="text-3xl font-bold text-gray-800 mb-8">Latest Updates</h2>
+      <h2 className="text-3xl font-bold text-gray-100 mb-8">Latest Updates</h2>
       <div className="space-y-4">
         {updates.map((update, index) => (
           <div key={index} className="flex items-start">
             <p className="text-gray-500 w-28 flex-shrink-0">
-              <span className="font-semibold text-gray-600">[{update.date}]</span>
+              <span className="font-semibold text-gray-400">[{update.date}]</span>
             </p>
-            <p className="text-gray-700">{update.text}</p>
+            <p className="text-gray-300">{update.text}</p>
           </div>
         ))}
       </div>
