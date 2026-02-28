@@ -47,7 +47,7 @@ const projects: Project[] = [
 const ProjectItem: React.FC<Project> = ({ image, title, description, links }) => (
   <div className="flex flex-col md:flex-row items-start space-y-6 md:space-y-0 md:space-x-8 py-8">
     <div className="w-full md:w-1/3 flex-shrink-0">
-      <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
+      <div className="aspect-video bg-gray-800 rounded-lg overflow-hidden">
         <Image 
           src={image} 
           alt={title}
@@ -58,8 +58,8 @@ const ProjectItem: React.FC<Project> = ({ image, title, description, links }) =>
       </div>
     </div>
     <div className="flex-grow">
-      <h3 className="font-semibold text-xl text-gray-800 mb-2">{title}</h3>
-      <p className="text-gray-600 leading-relaxed mb-4">{description}</p>
+      <h3 className="font-semibold text-xl text-gray-100 mb-2">{title}</h3>
+      <p className="text-gray-300 leading-relaxed mb-4">{description}</p>
       <div className="flex flex-wrap gap-4">
         {links.map((link) => (
           <a
@@ -67,7 +67,7 @@ const ProjectItem: React.FC<Project> = ({ image, title, description, links }) =>
             href={link.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-800 hover:text-white transition-all duration-200"
+            className="px-4 py-2 text-sm font-medium text-gray-300 bg-gray-800 rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-200"
           >
             {link.name}
           </a>
@@ -79,8 +79,8 @@ const ProjectItem: React.FC<Project> = ({ image, title, description, links }) =>
 
 const Projects: React.FC = () => {
   return (
-    <section id="projects" className="py-20 border-b border-gray-200">
-      <h2 className="text-3xl font-bold text-gray-800 mb-4">Projects</h2>
+    <section id="projects" className="py-20 border-b border-gray-800">
+      <h2 className="text-3xl font-bold text-gray-100 mb-4">Projects</h2>
       <div>
         {projects.map((project, index) => (
           <ProjectItem key={index} {...project} />
