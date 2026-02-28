@@ -16,7 +16,7 @@ const experiences: Experience[] = [
     duration: " 2023 - 2027",
   },
   {
-    logo: "/logo.svg",
+    logo: "/logo 1 1.svg",
     title: " Full-stack Engineer",
     company: "Coduter",
     duration: "Feb-Current",
@@ -31,7 +31,7 @@ const experiences: Experience[] = [
 
 const ExperienceItem: React.FC<Experience> = ({ logo, title, company, duration }) => (
   <div className="flex flex-col items-center text-center max-w-xs mx-4">
-    <div className="w-32 h-32 flex-shrink-0 flex items-center justify-center bg-white border-2 border-gray-200 rounded-full shadow-lg overflow-hidden mb-4">
+    <div className="w-32 h-32 flex-shrink-0 flex items-center justify-center bg-gray-800 border-2 border-gray-700 rounded-full shadow-lg shadow-black/30 overflow-hidden mb-4">
       <Image 
         src={logo} 
         alt={`${company} logo`} 
@@ -41,16 +41,16 @@ const ExperienceItem: React.FC<Experience> = ({ logo, title, company, duration }
       />
     </div>
     <div className="flex-grow">
-      <h3 className="font-bold text-lg text-gray-800 mb-1">{title}</h3>
-      <p className="text-gray-700 font-medium mb-2">{company}</p>
-      <p className="text-gray-500 text-sm">{duration}</p>
+      <h3 className="font-bold text-lg text-gray-100 mb-1">{title}</h3>
+      <p className="text-gray-300 font-medium mb-2">{company}</p>
+      <p className="text-gray-400 text-sm">{duration}</p>
     </div>
   </div>
 )
 
 const Experience: React.FC = () => {
   return (
-    <section id="experience" className="py-16 bg-gray-50">
+    <section id="experience" className="py-16 bg-gray-900">
       <div className="container mx-auto px-4">
         {/* <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">Experience</h2> */}
         <div className="flex flex-wrap justify-center items-start gap-8 md:gap-12">
