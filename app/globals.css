@@ -4,10 +4,30 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #000;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #000;
 }
 
 ::selection {
-  background-color: #60a5fa;
-  color: #030712;
+  background-color: #ffffff;
+  color: #000000;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}

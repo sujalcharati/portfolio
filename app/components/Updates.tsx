@@ -1,49 +1,46 @@
-import React from "react";
+import CollapsibleSection from "./CollapsibleSection"
 
 interface Update {
-  date: string;
-  text: string;
+  date: string
+  text: string
 }
 
 const updates: Update[] = [
   {
-    date: "June 2025",
-    text: ' Started as Research Intern at IIIT Kurnool in the field of Cryptography.',
+    date: "jun 2025",
+    text: "started as a research intern at iiit kurnool exploring post-quantum cryptography.",
   },
   {
-    date: "March 2025",
-    text: "Contributed to Apertre 2.0 open source program projects.",
+    date: "mar 2025",
+    text: "contributed to apertre 2.0 open source projects.",
   },
   {
-    date: "Feb 2025",
-    text: 'First runners up at HACK FOR TOMMOROW 2K25 at VSSUT,Burla .',
+    date: "feb 2025",
+    text: "first runners up at hack for tomorrow 2k25 at vssut, burla.",
   },
   {
-    date: "Feb 2025",
-    text: 'Started as a Junior Frontend Engineer Intern at Coduter.',
+    date: "feb 2025",
+    text: "joined coduter as a junior frontend engineer intern.",
   },
-   {
-    date: "June 2024",
-    text: 'workshop at IIT Kharagpur for Algorithm to Text Analytics.',
+  {
+    date: "jun 2024",
+    text: "workshop at iit kharagpur — algorithm to text analytics.",
   },
-];
+]
 
-const Updates: React.FC = () => {
+export default function Updates() {
   return (
-    <section id="news" className="py-16">
-      <h2 className="text-3xl font-bold text-gray-100 mb-8">Latest Updates</h2>
-      <div className="space-y-4">
-        {updates.map((update, index) => (
-          <div key={index} className="flex items-start">
-            <p className="text-gray-500 w-28 flex-shrink-0">
-              <span className="font-semibold text-gray-400">[{update.date}]</span>
-            </p>
-            <p className="text-gray-300">{update.text}</p>
-          </div>
+    <CollapsibleSection id="updates" title="recent updates">
+      <ul className="space-y-3">
+        {updates.map((u, i) => (
+          <li key={i} className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
+            <span className="text-sm text-zinc-500 sm:w-24 shrink-0 tabular-nums lowercase">
+              {u.date}
+            </span>
+            <span className="text-zinc-300 leading-relaxed">{u.text}</span>
+          </li>
         ))}
-      </div>
-    </section>
-  );
-};
-
-export default Updates; 
+      </ul>
+    </CollapsibleSection>
+  )
+}
