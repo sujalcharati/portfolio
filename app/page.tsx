@@ -8,6 +8,7 @@ import Education from "./components/Education"
 import Projects from "./components/Projects"
 import Updates from "./components/Updates"
 import Dock from "./components/Dock"
+import HangingGames from "./components/HangingGames"
 
 export default function PortfolioPage() {
   return (
@@ -24,6 +25,7 @@ export default function PortfolioPage() {
         </footer>
       </div>
       <Dock />
+      <HangingGames />
     </main>
   )
 }

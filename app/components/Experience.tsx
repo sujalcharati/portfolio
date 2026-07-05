@@ -10,6 +10,14 @@ interface ExperienceItem {
 }
 
 const experiences: ExperienceItem[] = [
+  { 
+    logo: "/alcovia_logo_dark.png",
+    role: "full-stack engineer | intern",
+    org : "Alcovia",
+    duration: " jun 2026 - present",
+    href: "https://alcovia.life"
+
+  },
   {
     logo: "/logo 1 1.svg",
     role: "full-stack engineer | intern",
